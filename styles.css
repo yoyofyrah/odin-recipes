@@ -1,13 +1,36 @@
 div {
     color: white;
     background-color: black;
+    padding: 10px;
 }
 
-p {
-    color: green;
+* {
+    background-color: rgb(221, 194, 159);
+    color: rgb(43, 40, 36); 
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-decoration: underline;
+    font-weight: 800px;
+}
+
+ul, ol {
+    text-align: center;
+    padding: 0;
+    margin: 0px auto;
 }
 
 img {
+    padding: 10px;
+    border-style:double;
+    border-width: 20px;
+    border-radius: 100px;
+    border-color: rgb(224, 255, 247);
     height: auto;
     width: 300px;
+}
+
+li {
+    padding: 10px;
 }
