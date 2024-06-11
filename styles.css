@@ -8,17 +8,18 @@ div {
     background-color: rgb(221, 194, 159);
     color: rgb(43, 40, 36); 
     text-align: center;
+    /* outline: 2px solid red; */
 }
 
 h1, h2, h3 {
-    text-decoration: underline;
     font-weight: 800px;
+    margin: 32px;
 }
 
 ul, ol {
     text-align: center;
     padding: 0;
-    margin: 0px auto;
+    margin: auto auto;
 }
 
 img {
